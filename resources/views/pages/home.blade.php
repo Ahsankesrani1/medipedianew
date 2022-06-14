@@ -64,7 +64,7 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="course-item">
-                        <img src="{{ asset('./assets/img/t1.webp') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('./assets/img/t2.jpeg') }}" class="img-fluid" alt="...">
                         <div class="course-content">
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <h4>News 2</h4>
@@ -90,7 +90,7 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                     <div class="course-item">
-                        <img src="{{ asset('./assets/img/t1.webp') }}" class="img-fluid" alt="...">
+                        <img src="{{ asset('./assets/img/t3.jpeg') }}" class="img-fluid" alt="...">
                         <div class="course-content">
                             <div class="d-flex justify-content-between align-items-center mb-3">
                                 <h4>News 3</h4>
