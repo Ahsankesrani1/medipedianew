@@ -20,7 +20,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Aspirin',
                     'image' => 'assets\img\Medicines-img\aspirin\1.jpeg',
-                    'description' => "About the Medicine
+                    'description_one' => "About the Medicine
                     Aspirin is an everyday painkiller for aches and pains such as headache, toothache and period pain. It can also be used to treat colds and flu-like symptoms, and to bring down a high temperature.
                     Aspirin is known as an acetylsalicylic acid. It also belongs to a group of medicines called non-steroidal anti-inflammatory drugs (NSAIDs).
                     Aspirin combined with other ingredients is also available in some cold and flu remedies.
@@ -39,7 +39,9 @@ class MedicineSeeder extends Seeder
                     Like all medicines, aspirin can cause side effects although not everyone gets them.
                     It's best to take the lowest dose that works for you for the shortest possible time. That way, there's less chance that you'll get unwanted side effects.
                     
-                    Common side effects
+                    ",
+
+                    'description_two' => "Common side effects
                     These common side effects of aspirin for pain relief happen in more than 1 in 100 people. There are things you can do to help cope with them.
                     Mild indigestion
                     Bleeding more easily than normal
@@ -68,33 +70,28 @@ class MedicineSeeder extends Seeder
                     Note: Do not take more than 12 tablets in 24 hours. Wait at least 4 hours between doses.
                     Note: Do not use more than 24 of the 150mg suppositories or 12 of the 300mg in 24 hours. Wait at least 4 hours between doses.
                     
-                    
-                    
-                    
-                    
+    
                     Most common question related to this Drug 
                     1. How does aspirin for pain relief work?
                     2. When will I feel better?
                     3. What if aspirin does not work?
-                    4. Are there any long term side effects?
-                    
-                    
-                    Video link to add in the video description page: 
-                    https://www.youtube.com/watch?v=E61AdIYEBuk
-                    ",
+                    4. Are there any long term side effects?",
+
+                    'video_link' => "https://www.youtube.com/embed/E61AdIYEBuk",
                 ],
                 [
                     'name' => 'Clarfin',
                     'image' => 'assets\img\Medicines-img\clarfin\download (1).jpeg',
-                    'description' => "About the medicine 
+                    'description_one' => "About the medicine 
                     Loratadine is an antihistamine which provides relief of seasonal allergy symptoms such as watery and itching eyes, runny nose, and sneezing. Pseudoephedrine is a decongestant which helps relieve a stuffy nose, promotes sinus draining, and improves breathing.
                      
                     This medication is not recommended for use in children under 12 years of age due to the high amount of pseudoephedrine.
                     
                     Key Facts 
                     Drug interactions may change how your medications work or increase your risk for serious side effects. This document does not contain all possible drug interactions. Keep a list of all the products you use (including prescription/nonprescription drugs and herbal products) and share it with your doctor and pharmacist. Do not start, stop, or change the dosage of any medicines without your doctor's approval.
-                    
-                    Side Effects
+                    ",
+
+                    'description_two' => "Side Effects
                     Dry mouth, mild stomach upset, trouble sleeping, dizziness, headache, nervousness, loss of appetite, or thirst may occur. If any of these effects last or get worse, tell your doctor or pharmacist promptly.
                     If your doctor has directed you to use this medication, remember that your doctor has judged that the benefit to you is greater than the risk of side effects. Many people using this medication do not have serious side effects.
                     Tell your doctor right away if any of these serious side effects occur: fast/irregular heartbeat, uncontrolled shaking or tremor.
@@ -115,17 +112,14 @@ class MedicineSeeder extends Seeder
                     2. Does Claritin-D 24 Hour interact with other medications?
                     3. Should I avoid certain foods while taking Claritin-D 24 Hour?
                     4. What conditions does Claritin-D 24 Hour treat?
-                    
-                    
-                    
-                    Video link to add in the video description page: 
-                    https://www.youtube.com/watch?v=G5TAiIT7oh4
-                    ",
+                    ", 
+
+                    'vide_link' => "https://www.youtube.com/embed/G5TAiIT7oh4", 
                 ],
                 [
                     'name' => 'Dexamethasone',
                     'image' => 'assets\img\Medicines-img\dexamethasone\d41586-020-01824-5_18087906.jpeg',
-                    'description' => "About the medicine
+                    'description_one' => "About the medicine
                     Dexamethasone is a medicine used to treat a wide range of health conditions. These include:
                     severe skin conditions
                     severe allergies (anaphylaxis)
@@ -147,7 +141,9 @@ class MedicineSeeder extends Seeder
                     If you take dexamethasone for more than 3 weeks, or take more than 6mg a day, you'll get a blue steroid card. You may also need to carry a (red) steroid emergency card. Ask your pharmacist or doctor about both of these.
                     You will need to carry a steroid emergency card if you take dexamethasone to treat Addison’s disease, congenital adrenal hyperplasia, other adrenal problems, adrenal insufficiency or hypothalamic or pituitary disorder.
                     
-                    Side Effects
+                    ",
+
+                    'description_two' => "                    Side Effects
                     Like all medicines, dexamethasone can cause side effects, although not everyone gets them.
                     Side effects are less likely if you are on a lower dose (less than 6mg a day).
                     Common side effects
@@ -184,17 +180,14 @@ class MedicineSeeder extends Seeder
                     2. How is dexamethasone used to treat COVID-19 (coronavirus)?
                     3. When will I feel better?
                     4. Can I still have vaccinations?
-                    
-                    
-                    
-                    Video link to add in the video description page: 
-                    https://www.youtube.com/watch?v=EUOBdH_gHKs
                     ",
+
+                    'video_link' => "https://www.youtube.com/embed/EUOBdH_gHKs",
                 ],
                 [
                     'name' => 'Paracetemol',
                     'image' => 'assets\img\Medicines-img\paracetemol\istockphoto-1022216070-612x612.jpeg',
-                    'description' => "About the Medicine
+                    'description_one' => "About the Medicine
                     Paracetamol is a common painkiller used to treat aches and pain. It can also be used to reduce a high temperature.
                     It's available combined with other painkillers and anti-sickness medicines. It's also an ingredient in a wide range of cold and flu remedies.
                      
@@ -208,7 +201,9 @@ class MedicineSeeder extends Seeder
                     Paracetamol very rarely causes side effects if you take it at the right dosage.
                     If you're worried about a side effect or notice anything unusual, talk to your pharmacist or doctor.
                     
-                    Dosage 
+                    ",
+
+                    'description_two' => "Dosage 
                     Paracetamol can be taken with or without food.
                     The usual dose for adults is one or two 500mg tablets up to 4 times in 24 hours.
                     Always leave at least 4 hours between doses.
@@ -221,16 +216,15 @@ class MedicineSeeder extends Seeder
                     1. How does paracetamol work?
                     2. When will I feel better?
                     3. Is paracetamol better than ibuprofen?
-                    4. What if paracetamol doesn't work?
-                    
-                    
-                    Video link to add in the video description page: https://www.youtube.com/watch?v=-DVf_aoWBtY
-                    ",
+                    4. What if paracetamol doesn't work?",
+
+                    'video_link' => "https://www.youtube.com/embed/DVf_aoWBtY",
                 ],
                 [
                     'name' => 'Remdisiver',
                     'image' => 'assets\img\Medicines-img\remdisiver\image.webp',
-                    'description' => "About the medicine
+                    'description_one' => "About the medicine
+
                     Remdesivir is an antiviral medicine that works by stopping the virus that causes coronavirus (COVID-19) from growing and spreading in the body.
                     It's used to treat early COVID-19 infection and help to prevent more severe symptoms.
                     You will usually be given remdesivir through a drip in your arm (infusion).
@@ -246,7 +240,9 @@ class MedicineSeeder extends Seeder
                     Remdesivir starts working very soon after having it.
                     Common side effects of remdesivir include headaches and feeling sick
                     
-                    Side Effects
+                    ",
+
+                    'description_two' => "                    Side Effects
                     Like all medicines, remdesivir can cause side effects in some people, although not everyone gets them.
                     
                     Common side effects are
@@ -276,24 +272,20 @@ class MedicineSeeder extends Seeder
                     A doctor or specialist will confirm if you are eligible for treatment.
                     
                     
-                    
-                    
+                                        
                     Most common question related to this Drug
                     1. How does remdesivir work?
                     2. How long does it take to work?
                     3. Are there any long-term side effects?
                     4. How does remdesivir compare with other medicines to treat COVID-19?
                     
-                    
-                    
-                    Video link to add in the video description page: 
-                    https://www.youtube.com/watch?v=nF1g37u5alU
                     ",
+                    'video_link' => "https://www.youtube.com/embed/nF1g37u5alU",
                 ],
                 [
                     'name' => 'Semathicone',
                     'image' => 'assets\img\Medicines-img\semathicone\download.jpeg',
-                    'description' => "About the Medicine
+                    'description_one' => "About the Medicine
                     Simeticone or (simethicone) is a type of medicine called an antiflatulent. It is used to treat wind (flatulence).
                     It is a mixture of silica gel and dimeticone (or dimethicone, a type of silicone) and is known as 'activated dimeticone'.
                     It can help with trapped wind and bloating as well as colic in babies. People with irritable bowel syndrome (IBS) sometimes take simeticone to ease their symptoms.
@@ -309,7 +301,9 @@ class MedicineSeeder extends Seeder
                     Most people will only need to take it occasionally, or over a short period of time.
                     Simeticone can be taken during pregnancy and while breastfeeding
                     
-                    Side Effects
+                    ",
+
+                    'description_two' => "                    Side Effects
                     Simeticone is a very safe medicine and is generally not known to cause any side effects.
                     Serious allergic reaction
                     In rare cases it's possible to have a serious allergic reaction (anaphylaxis) to simeticone.
@@ -317,18 +311,11 @@ class MedicineSeeder extends Seeder
                     Note: Tell a doctor if you are pregnant, trying to get pregnant or breastfeeding. 
                     
                     
-                    
-                    
-                    
-                    
-                    
+
                     Dosage
                     Doses vary depending on the type of medicine, the brand and the amount of simeticone in it. The dose is lower for babies.
                     For wind, the usual dose is between 100mg and 250mg. You can take the medicine as required, up to 3 or 4 times a day. It’s usually taken after meals and at bedtime.
                     For colic in babies, the usual dose is between 20mg and 40mg, given before each feed, up to 6 times a day.
-                    
-                    
-                    
                     
                     
                     Most common question related to this Drug 
@@ -336,12 +323,8 @@ class MedicineSeeder extends Seeder
                     2. How quickly should it start to work?
                     3. How long will I take it for?
                     4. Can I drink alcohol with simeticone?
-                    
-                    
-                    
-                    Video link to add in the video description page: 
-                    https://www.youtube.com/watch?v=MJVRT2zN980
                     ",
+                    'video_link' => "https://www.youtube.com/embed/MJVRT2zN980",
                 ],
             ]);
     }

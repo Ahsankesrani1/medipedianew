@@ -6,32 +6,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <p>
-
-                                1. About paracetamol for adults
-
-                                Paracetamol is a common painkiller
-                                used to treat aches and pain. It can
-                                also be used to reduce a high
-                                temperature.
-
-
-                                It's available combined with other
-                                painkillers and anti-sickness
-                                medicines. It's also an ingredient in a
-                                wide range of cold and flu remedies 
-                                <br>
-                                <br>
-
-                                2. Key fact|
-                                x Paracetamol takes up to an hour to work
-                                x The usual dose of paracetamol is one or two 500mg tablets at
-                                a time
-                                x Do not take paracetamol with other medicines containing
-                                paracetamol
-                                x Paracetamol is safe to take in pregnancy and while
-                                breastfeeding, at recommended doses
-                                x yrand names include Disprol, Hedex, Medinol and Panadol.
+                            <p id="descriptionOne">
                             </p>
                             {{-- <p class="card-text">
                             </p> --}}
@@ -42,24 +17,12 @@
                     <img class="img-fuild" id="medicineImg" alt="Medicine Image" height="500" width="500">
                 </div>
                 <div class="col-md-4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G5TAiIT7oh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="videoFrame" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-body">
-                            <p>
-                               
-                                03 Precautiona
-
-                                In the following situations, it is not advised. 
-                                
-                                x You're expecting a child or are nursing a baby. This is because
-                                you should only take the prescription if your doctor
-                                recommends it when you are pregnant or breastfeeding. 
-                                x You have major issues with the way your liver functions, or you
-                                regularly consume large amounts of alcohol. 
-                                x Your doctor has recommended medication for you. 
-                                x A drug has caused you to experience an allergic response.
+                            <p id="descriptionTwo">
                             </p>
                         </div>
                     </div>
@@ -170,8 +133,10 @@
                         id: "{{ request()->id }}",
                     },
                     success: function(response) {
-                        $('.card-text').text(response.description);
+                        $('#descriptionOne').html(response.description_one).text();
+                        $('#descriptionTwo').html(response.description_two).text();
                         $("#medicineImg").attr("src", "{{ request()->root() }}/" + response.image);
+                        $("#videoFrame").attr("src", response.video_link);
                     },
                     error: function() {
                         alert('Id Does Not Exists');
