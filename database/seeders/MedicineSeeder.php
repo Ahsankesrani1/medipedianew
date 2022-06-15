@@ -20,101 +20,119 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Aspirin',
                     'image' => 'assets\img\Medicines-img\aspirin\1.jpeg',
-                    'description_one' => "About the Medicine
-                    Aspirin is an everyday painkiller for aches and pains such as headache, toothache and period pain. It can also be used to treat colds and flu-like symptoms, and to bring down a high temperature.
-                    Aspirin is known as an acetylsalicylic acid. It also belongs to a group of medicines called non-steroidal anti-inflammatory drugs (NSAIDs).
-                    Aspirin combined with other ingredients is also available in some cold and flu remedies.
-                    You can buy most types of aspirin from pharmacies, shops and supermarkets. Some types are only available on prescription.
-                    Aspirin comes as tablets or suppositories – medicine that you push gently into your anus (bottom). It also comes as a gel for mouth ulcers and cold sores.
-                    If you've had a stroke or heart attack, or are at high risk of a heart attack, your doctor may recommend that you take a daily low-dose aspirin. Some women may also be prescribed low-dose aspirin while they’re pregnant.
-                    This is different to taking aspirin for pain relief. Only take low-dose aspirin if your doctor recommends it. Read our information on low-dose aspirin.
-                    
-                    Key Facts
-                    It's best to take aspirin with food. That way, you'll be less likely to get an upset stomach or stomach ache.
-                    Never give aspirin to children under the age of 16 (unless their doctor prescribes it). It can make children more likely to develop a very rare but serious condition called Reye's syndrome.
-                    You should start to feel better 20 to 30 minutes after taking aspirin.
-                    Aspirin is an ingredient in combined medicines such as Anadin Original, Anadin Extra, Alka-Seltzer Original, Alka-Seltzer XS and Beechams Powders.
-                    Aspirin as a mouth gel has the brand name Bonjela. Like other aspirin products, it's only for people aged 16 and over. Bonjela Teething Gel and Bonjela Junior Gel do not contain aspirin, so you can give them to children under 16.
-                    Side Effects
-                    Like all medicines, aspirin can cause side effects although not everyone gets them.
-                    It's best to take the lowest dose that works for you for the shortest possible time. That way, there's less chance that you'll get unwanted side effects.
-                    
+                    'description_one' => 
+                    "
+                    <p><strong>About the Medicine</strong></p>
+                    <p>Aspirin is an everyday painkiller for aches and pains such as&nbsp;<a href='https://www.nhs.uk/conditions/headaches/'>headache</a>,&nbsp;<a href='https://www.nhs.uk/conditions/toothache/'>toothache</a>&nbsp;and&nbsp;<a href='https://www.nhs.uk/conditions/period-pain/'>period pain</a>. It can also be used to treat&nbsp;<a href='https://www.nhs.uk/conditions/baby/health/colds-coughs-and-ear-infections-in-children/'>colds</a>&nbsp;and&nbsp;<a href='https://www.nhs.uk/conditions/flu/'>flu-like symptoms</a>, and to bring down a high temperature.</p>
+                    <p>Aspirin is known as an acetylsalicylic acid. It also belongs to a group of medicines called non-steroidal anti-inflammatory drugs (NSAIDs).</p>
+                    <p>Aspirin combined with other ingredients is also available in some cold and flu remedies.</p>
+                    <p>You can buy most types of aspirin from pharmacies, shops and supermarkets. Some types are only available on prescription.</p>
+                    <p>Aspirin comes as tablets or suppositories &ndash; medicine that you push gently into your anus (bottom). It also comes as a gel for mouth ulcers and cold sores.</p>
+                    <p>If you've had a stroke or heart attack, or are at high risk of a heart attack, your doctor may recommend that you take a daily low-dose aspirin. Some women may also be prescribed low-dose aspirin while they&rsquo;re pregnant.</p>
+                    <p>This is different to taking aspirin for pain relief. Only take low-dose aspirin if your doctor recommends it. Read our&nbsp;<a href='https://www.nhs.uk/medicines/low-dose-aspirin/'>information on low-dose aspirin</a>.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Key Facts</strong></p>
+                    <ul>
+                    <li>It's best to take aspirin with food. That way, you'll be less likely to get an upset stomach or stomach ache.</li>
+                    <li>Never give aspirin to children under the age of 16 (unless their doctor prescribes it). It can make children more likely to develop a very rare but serious condition called Reye's syndrome.</li>
+                    <li>You should start to feel better 20 to 30 minutes after taking aspirin.</li>
+                    <li>Aspirin is an ingredient in combined medicines such as Anadin Original, Anadin Extra, Alka-Seltzer Original, Alka-Seltzer XS and Beechams Powders.</li>
+                    </ul>
+                    <p>Aspirin as a mouth gel has the brand name Bonjela. Like other aspirin products, it's only for people aged 16 and over. Bonjela Teething Gel and Bonjela Junior Gel do not contain aspirin, so you can give them to children under 16.</p>
                     ",
 
-                    'description_two' => "Common side effects
-                    These common side effects of aspirin for pain relief happen in more than 1 in 100 people. There are things you can do to help cope with them.
-                    Mild indigestion
-                    Bleeding more easily than normal
-                    
-                    Talk to your doctor or pharmacist if the side effects bother you or do not go away.
-                    Serious side effects
-                    It happens rarely, but some people have serious side effects after taking aspirin.
-                    Call your doctor or contact 111 now if:
-                    you cough up blood or have blood in your pee, poo or vomit
-                    the whites of your eyes turn yellow or your skin turns yellow (this may be less obvious on brown or black skin), or your pee gets darker) – this can be a sign of liver problems
-                    the joints in your hands and feet are painful – this can be a sign of high levels of uric acid in the blood
-                    your hands or feet are swollen – this can be a sign of water retention
-                    Stomach ulcers
-                    Aspirin can cause ulcers in your stomach or gut, especially if you take it for a long time or in big doses. Your doctor may tell you not to take aspirin if you have a stomach ulcer, or if you've had one in the past.
-                    If you're at risk of getting a stomach ulcer and you need a painkiller, take paracetamol instead of aspirin as it's more gentle on your stomach.
-                    Serious allergic reaction
-                    In rare cases, it's possible to have a serious allergic reaction (anaphylaxis) to aspirin .
-                    
-                    
-                    Dosage 
-                    The dose of aspirin that's right for you depends on the kind of aspirin you're taking, why you're taking it and how well it helps your symptoms.
-                    Dosage and strength of aspirin tablets
-                    Aspirin usually comes as 300mg tablets.
-                    The usual dose is 1 or 2 tablets, taken every 4 to 6 hours.
-                    
-                    Note: Do not take more than 12 tablets in 24 hours. Wait at least 4 hours between doses.
-                    Note: Do not use more than 24 of the 150mg suppositories or 12 of the 300mg in 24 hours. Wait at least 4 hours between doses.
-                    
-    
-                    Most common question related to this Drug 
-                    1. How does aspirin for pain relief work?
-                    2. When will I feel better?
-                    3. What if aspirin does not work?
-                    4. Are there any long term side effects?",
+                    'description_two' => 
+                    "
+                    <p><strong>Side Effects</strong></p>
+                    <p>Like all medicines, aspirin can cause side effects although not everyone gets them.</p>
+                    <p>It's best to take the lowest dose that works for you for the shortest possible time. That way, there's less chance that you'll get unwanted side effects.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Common side effects</strong></p>
+                    <p>These common side effects of aspirin for pain relief happen in more than 1 in 100 people. There are things you can do to help cope with them.</p>
+                    <p>Mild indigestion</p>
+                    <p>Bleeding more easily than normal</p>
+                    <p>&nbsp;</p>
+                    <p>Talk to your doctor or pharmacist if the side effects bother you or do not go away.</p>
+                    <p><strong>Serious side effects</strong></p>
+                    <p>It happens rarely, but some people have serious side effects after taking aspirin.</p>
+                    <p>Call your doctor or contact 111 now if:</p>
+                    <ul>
+                    <li>you cough up blood or have blood in your pee, poo or vomit</li>
+                    <li>the whites of your eyes turn yellow or your skin turns yellow (this may be less obvious on brown or black skin), or your pee gets darker) &ndash; this can be a sign of liver problems</li>
+                    <li>the joints in your hands and feet are painful &ndash; this can be a sign of high levels of uric acid in the blood</li>
+                    <li>your hands or feet are swollen &ndash; this can be a sign of water retention</li>
+                    </ul>
+                    <p><strong>Stomach ulcers</strong></p>
+                    <p>Aspirin can cause ulcers in your stomach or gut, especially if you take it for a long time or in big doses. Your doctor may tell you not to take aspirin if you have a stomach ulcer, or if you've had one in the past.</p>
+                    <p>If you're at risk of getting a stomach ulcer and you need a painkiller, take paracetamol instead of aspirin as it's more gentle on your stomach.</p>
+                    <p><strong>Serious allergic reaction</strong></p>
+                    <p>In rare cases, it's possible to have a serious allergic reaction&nbsp;<a href='https://www.nhs.uk/conditions/anaphylaxis/'>(anaphylaxis)</a>&nbsp;to aspirin .</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Dosage </strong></p>
+                    <p>The dose of aspirin that's right for you depends on the kind of aspirin you're taking, why you're taking it and how well it helps your symptoms.</p>
+                    <p><strong>Dosage and strength of aspirin tablets</strong></p>
+                    <p>Aspirin usually comes as 300mg tablets.</p>
+                    <p>The usual dose is 1 or 2 tablets, taken every 4 to 6 hours.</p>
+                    <p>&nbsp;</p>
+                    <p>Note: Do not take more than 12 tablets in 24 hours. Wait at least 4 hours between doses.</p>
+                    <p>Note: Do not use more than 24 of the 150mg suppositories or 12 of the 300mg in 24 hours. Wait at least 4 hours between doses.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p>&nbsp;</p>
+                    <p>Most common question related to this Drug</p>
+                    <p><span style='text-decoration: underline;'>1.</span><span style='text-decoration: underline;'> How does aspirin for pain relief work?</span></p>
+                    <p><span style='text-decoration: underline;'>2.</span><span style='text-decoration: underline;'> When will I feel better?</span></p>
+                    <p><span style='text-decoration: underline;'>3.</span><span style='text-decoration: underline;'> What if aspirin does not work?</span></p>
+                    <p><span style='text-decoration: underline;'>4. Are there any long term side effects?</span></p>
+                    ",
 
                     'video_link' => "https://www.youtube.com/embed/E61AdIYEBuk",
                 ],
                 [
                     'name' => 'Clarfin',
                     'image' => 'assets\img\Medicines-img\clarfin\download (1).jpeg',
-                    'description_one' => "About the medicine 
-                    Loratadine is an antihistamine which provides relief of seasonal allergy symptoms such as watery and itching eyes, runny nose, and sneezing. Pseudoephedrine is a decongestant which helps relieve a stuffy nose, promotes sinus draining, and improves breathing.
-                     
-                    This medication is not recommended for use in children under 12 years of age due to the high amount of pseudoephedrine.
-                    
-                    Key Facts 
-                    Drug interactions may change how your medications work or increase your risk for serious side effects. This document does not contain all possible drug interactions. Keep a list of all the products you use (including prescription/nonprescription drugs and herbal products) and share it with your doctor and pharmacist. Do not start, stop, or change the dosage of any medicines without your doctor's approval.
+                    'description_one' => 
+                    "
+                    <p><strong>About the medicine </strong></p>
+                    <p><a href='http://www.webmd.com/drugs/mono-204-LORATADINE+-+ORAL.aspx?drugid=73&amp;drugname=loratadine+oral'>Loratadine</a>&nbsp;is an&nbsp;<a href='http://www.webmd.com/allergies/antihistamines-for-allergies'>antihistamine</a>&nbsp;which provides relief of&nbsp;<a href='http://www.webmd.com/allergies/healthtool-pollen-counter-calculator'>seasonal allergy</a>&nbsp;symptoms such as watery and&nbsp;<a href='http://www.webmd.com/skin-problems-and-treatments/guide/skin-conditions-pruritus'>itching</a>&nbsp;<a href='http://www.webmd.com/eye-health/picture-of-the-eyes'>eyes</a>,&nbsp;<a href='http://www.webmd.com/allergies/postnasal-drip'>runny nose</a>, and&nbsp;<a href='http://www.webmd.com/allergies/features/11-surprising-sneezing-facts'>sneezing</a>.&nbsp;<a href='http://www.webmd.com/drugs/2/drug-55306/pseudoephedrine+dx+oral/details'>Pseudoephedrine</a>&nbsp;is a&nbsp;<a href='http://www.webmd.com/allergies/decongestants'>decongestant</a>&nbsp;which helps relieve a stuffy nose, promotes&nbsp;<a href='http://www.webmd.com/allergies/picture-of-the-sinuses'>sinus</a>&nbsp;draining, and improves breathing.</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p>This&nbsp;<a href='http://www.webmd.com/drugs/index-drugs.aspx'>medication</a>&nbsp;is not recommended for use in children under 12 years of age due to the high amount of pseudoephedrine.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Key Facts </strong></p>
+                    <p><a href='https://www.webmd.com/a-to-z-guides/video/vd-0801-atsp-12'>Drug interactions</a>&nbsp;may change how your&nbsp;<a href='https://www.webmd.com/drugs/index-drugs.aspx'>medications</a>&nbsp;work or increase your risk for serious side effects. This document does not contain all possible drug interactions. Keep a list of all the products you use (including prescription/nonprescription drugs and herbal products) and share it with your doctor and&nbsp;<a href='https://www.webmd.com/a-to-z-guides/features/pharmacists-they-do-more-than-fill-prescriptions'>pharmacist</a>. Do not start, stop, or change the dosage of any medicines without your doctor's approval.</p>
                     ",
 
-                    'description_two' => "Side Effects
-                    Dry mouth, mild stomach upset, trouble sleeping, dizziness, headache, nervousness, loss of appetite, or thirst may occur. If any of these effects last or get worse, tell your doctor or pharmacist promptly.
-                    If your doctor has directed you to use this medication, remember that your doctor has judged that the benefit to you is greater than the risk of side effects. Many people using this medication do not have serious side effects.
-                    Tell your doctor right away if any of these serious side effects occur: fast/irregular heartbeat, uncontrolled shaking or tremor.
-                    Tell your doctor right away if any of these unlikely but serious side effects occur: seizures, mental/mood changes, difficulty urinating.
-                    This medication does not usually cause drowsiness when used at recommended doses and under normal circumstances. However, this drug may make you dizzy. Use caution if doing activities that require alertness, such as driving or using machinery.
-                    A serious allergic reaction to this drug is unlikely, but seek immediate medical attention if it occurs. Symptoms of a serious allergic reaction include: rash, itching/swelling (especially of the face/tongue/throat), severe dizziness, trouble breathing.
-                    This is not a complete list of possible side effects. If you notice other effects not listed above, contact your doctor or pharmacist.
-                    
-                    Dosage 
-                    Take this medication by mouth usually once daily; or take as directed by your doctor. Take with a full glass of water. Do not crush or chew this medication. Doing so can release all of the drug at once, increasing the risk of side effects. Also, do not split the tablets unless they have a score line and your doctor or pharmacist tells you to do so. Swallow the whole or split tablet without crushing or chewing.
-                    Do not increase your dose or take this more often than directed.
-                    Do not take this medication for several days before allergy testing since test results can be affected. Consult your doctor or pharmacist for more information.
-                    
-                    
-                    
-                    Most common question related to this Drug 
-                    1. Who should not take Claritin-D 24 Hour?
-                    2. Does Claritin-D 24 Hour interact with other medications?
-                    3. Should I avoid certain foods while taking Claritin-D 24 Hour?
-                    4. What conditions does Claritin-D 24 Hour treat?
+                    'description_two' => 
+                    "
+                    <p><strong>Side Effects</strong></p>
+                    <p><a href='https://www.webmd.com/oral-health/guide/dental-health-dry-mouth'>Dry mouth</a>, mild&nbsp;<a href='https://www.webmd.com/digestive-disorders/picture-of-the-stomach'>stomach</a>&nbsp;upset,&nbsp;<a href='https://www.webmd.com/sleep-disorders/sleep-disorders-faq'>trouble sleeping</a>,&nbsp;<a href='https://www.webmd.com/first-aid/understanding-dizziness-basics'>dizziness</a>,&nbsp;<a href='https://www.webmd.com/migraines-headaches/migraines-headaches-basics'>headache</a>, nervousness, loss of appetite, or thirst may occur. If any of these effects last or get worse, tell your doctor or&nbsp;<a href='https://www.webmd.com/a-to-z-guides/features/pharmacists-they-do-more-than-fill-prescriptions'>pharmacist</a>&nbsp;promptly.</p>
+                    <p>If your doctor has directed you to use this&nbsp;<a href='https://www.webmd.com/drugs/index-drugs.aspx'>medication</a>, remember that your doctor has judged that the benefit to you is greater than the risk of side effects. Many people using this medication do not have serious side effects.</p>
+                    <p>Tell your doctor right away if any of these serious side effects occur: fast/irregular heartbeat, uncontrolled shaking or tremor.</p>
+                    <p>Tell your doctor right away if any of these unlikely but serious side effects occur:&nbsp;<a href='https://www.webmd.com/epilepsy/understanding-seizures-basics'>seizures</a>, mental/mood changes, difficulty urinating.</p>
+                    <p>This medication does not usually cause drowsiness when used at recommended doses and under normal circumstances. However, this drug may make you dizzy. Use caution if doing activities that require alertness, such as driving or using machinery.</p>
+                    <p>A serious&nbsp;<a href='https://www.webmd.com/allergies/allergic-reaction-causes'>allergic reaction</a>&nbsp;to this drug is unlikely, but seek immediate medical attention if it occurs. Symptoms of a serious&nbsp;<a href='https://www.webmd.com/allergies/anaphylaxis-15/slideshow-allergy-triggers'>allergic reaction</a>&nbsp;include:&nbsp;<a href='https://www.webmd.com/skin-problems-and-treatments/guide/common-rashes'>rash</a>,&nbsp;<a href='https://www.webmd.com/skin-problems-and-treatments/guide/skin-conditions-pruritus'>itching</a>/swelling (especially of the face/<a href='https://www.webmd.com/oral-health/picture-of-the-tongue'>tongue</a>/throat), severe dizziness,&nbsp;<a href='https://www.webmd.com/lung/breathing-problems-causes-tests-treatments'>trouble breathing</a>.</p>
+                    <p>This is not a complete list of possible side effects. If you notice other effects not listed above, contact your doctor or pharmacist.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Dosage </strong></p>
+                    <p>Take this&nbsp;<a href='https://www.webmd.com/drugs/index-drugs.aspx'>medication</a>&nbsp;by&nbsp;<a href='https://www.webmd.com/oral-health/anatomy-of-the-mouth'>mouth</a>&nbsp;usually once daily; or take as directed by your doctor. Take with a full glass of water. Do not crush or chew this medication. Doing so can release all of the drug at once, increasing the risk of side effects. Also, do not split the tablets unless they have a score line and your doctor or&nbsp;<a href='https://www.webmd.com/a-to-z-guides/features/pharmacists-they-do-more-than-fill-prescriptions'>pharmacist</a>&nbsp;tells you to do so. Swallow the whole or split tablet without crushing or chewing.</p>
+                    <p>Do not increase your dose or take this more often than directed.</p>
+                    <p>Do not take this medication for several days before&nbsp;<a href='https://www.webmd.com/allergies/guide/allergies-diagnosis-tests'>allergy testing</a>&nbsp;since test results can be affected. Consult your doctor or pharmacist for more information.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p>&nbsp;</p>
+                    <p>Most common question related to this Drug</p>
+                    <p>1.<strong> <a href='https://www.webmd.com/drugs/2/drug-15983/claritin-d-24-hour-oral/details/list-contraindications' target='_self'>Who should not take Claritin-D 24 Hour?</a></strong></p>
+                    <p>2.<strong> <a href='https://www.webmd.com/drugs/2/drug-15983/claritin-d-24-hour-oral/details/list-interaction-medication' target='_self'>Does Claritin-D 24 Hour interact with other medications?</a></strong></p>
+                    <p>3.<strong> <a href='https://www.webmd.com/drugs/2/drug-15983/claritin-d-24-hour-oral/details/list-interaction-food' target='_self'>Should I avoid certain foods while taking Claritin-D 24 Hour?</a></strong></p>
+                    <p>4.<strong> <a href='https://www.webmd.com/drugs/2/drug-15983/claritin-d-24-hour-oral/details/list-conditions' target='_self'>What conditions does Claritin-D 24 Hour treat?</a></strong></p>
                     ", 
 
-                    'vide_link' => "https://www.youtube.com/embed/G5TAiIT7oh4", 
+                    'video_link' => "https://www.youtube.com/embed/G5TAiIT7oh4", 
                 ],
                 [
                     'name' => 'Dexamethasone',
