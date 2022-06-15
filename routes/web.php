@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 //ONLY FOR ADMIN
-Route::get('command', [App\Http\Controllers\AdminController::class, 'command'])->name('admin.command');
+Route::get('command/{command}', [App\Http\Controllers\AdminController::class, 'command'])->name('admin.command');
 
 Route::get('/', [App\Http\Controllers\SearchController::class, 'index'])->name('client.search');
 Route::get('medicines', [App\Http\Controllers\SearchController::class, 'medicines'])->name('client.medicines');
