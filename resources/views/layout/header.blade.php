@@ -5,8 +5,6 @@
                   class="img-fluid"></a>
           <nav id="navbar" class="navbar order-last order-lg-0">
               <ul>
-                  {{-- <li><a class="active" href="{{route('client.search')}}">Home</a></li> --}}
-                  <li><a class="active" href="{{ route('client.about') }}">About</a></li>
                   @if (auth()->check())
                       <a href=""> &nbsp;&nbsp;&nbsp; {{ auth()->user()->name }}</a>
                       <a href="{{ route('user.logout') }}" class="text-danger">&nbsp;&nbsp;&nbsp;Logout</a>

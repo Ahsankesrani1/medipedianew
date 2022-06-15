@@ -116,7 +116,9 @@
           <div class="me-md-auto text-center text-md-start">
               <nav class="navbar2">
                   <ul>
-                      <li><a class="active" href="{{ route('client.about') }}">About</a></li>
+                      <li><a class="active" href="{{ route('client.about') }}">About Medipedia</a></li>
+                      <li><a class="active" href="/">Community</a></li>
+                      <li><a class="active" href="{{ route('client.about') }}">FAQs</a></li>
                   </ul>
               </nav><!-- .navbar2 -->
           </div>
@@ -124,14 +126,22 @@
               <nav class="navbar2">
                   <ul>
                       <a href="/" class="logo me-auto"><img src="{{ asset('./assets/img/logo.jpeg') }}" alt=""
-                              style="width:250px;" class="img-fluid"></a>
-                  </ul>
+                              style="width:250px;" class="img-fluid">
+                            </a>
+                        </ul>
+                        Truly know your Medicine before
+                        you take them
               </nav><!-- .navbar2 -->
           </div>
 
-          <div class="social-links text-center text-md-right pt-3 pt-md-0">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          </div>
+          <div class="me-md-auto text-center text-md-start">
+            <nav class="navbar2">
+                <ul>
+                    <li><a class="active" href="{{ route('client.about') }}">Contact Us</a></li>
+                    <li><a class="active" href="/policy">Pricacy Policy</a></li>
+                    <li><a class="active" href="/support">Support</a></li>
+                </ul>
+            </nav><!-- .navbar2 -->
+        </div>
       </div>
   </footer><!-- End Footer -->
