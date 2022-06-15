@@ -14,6 +14,7 @@
 
                 <div class="col-md-6 col-sm-12">
                     <img class="img-fuild" id="medicineImg" alt="Medicine Image" height="500" width="500">
+                    <img class="img-fuild" id="imageTwo" alt="Medicine Image" height="500" width="500">
                     <iframe id="videoFrame" width="500" height="500" src="" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -159,6 +160,7 @@
                         $('#descriptionOne').html(response.description_one).text();
                         $('#descriptionTwo').html(response.description_two).text();
                         $("#medicineImg").attr("src", "{{ request()->root() }}/" + response.image);
+                        $("#imageTwo").attr("src", "{{ request()->root() }}/" + response.image_two);
                         $("#videoFrame").attr("src", response.video_link);
                     },
                     error: function() {
