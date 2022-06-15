@@ -5,8 +5,7 @@
         <div class="breadcrumbs">
             <div class="container">
                 <h2>About Us</h2>
-                <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit
-                    quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+                <p>More than 2,000 organisations share our content, including other NHS websites, local authorities, charities and commercial organisations, from start-ups to large technology leaders.</p>
             </div>
         </div><!-- End Breadcrumbs -->
 
@@ -31,30 +30,20 @@
                         <img src="{{ asset('./assets/img/about.jpg') }}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <h3>How we work.</h3>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et
-                            dolore
-                            magna aliqua.
-                        </p>
-                        <ul>
-                            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </li>
-                            <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate
-                                velit.</li>
-                            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute
-                                irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                                nulla
-                                pariatur.</li>
-                        </ul>
-                        <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                            in
-                            voluptate
-                        </p>
+                            We put users first when creating and transforming our content. We take an agile, iterative approach, starting with identifying the user needs.
 
+We test our ideas with users, and use the feedback we receive to learn and improve.
+
+To ensure our content is safe, accurate and up to date, we:
+
+source peer-reviewed scientific research from NHS Evidence
+must have all clinical content signed off by a member of our NHS Digital clinical assurance team .<br>
+Find out more about our policies, including our content policy and how we're governed.
+
+The NHS website is commissioned by NHSX.
+                        </p>
                     </div>
                 </div>
 

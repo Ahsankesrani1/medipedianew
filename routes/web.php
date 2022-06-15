@@ -30,3 +30,4 @@ Route::get('logout', [App\Http\Controllers\UserController::class, 'logout'])->na
 
 
 Route::view('/support','pages.support');
+Route::view('/policy','pages.privacy');

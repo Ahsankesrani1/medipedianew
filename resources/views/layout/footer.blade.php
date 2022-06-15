@@ -138,7 +138,7 @@
             <nav class="navbar2">
                 <ul>
                     <li><a class="active" href="{{ route('client.about') }}">Contact Us</a></li>
-                    <li><a class="active" href="/policy">Pricacy Policy</a></li>
+                    <li><a class="active" href="/policy">Privacy Policy</a></li>
                     <li><a class="active" href="/support">Support</a></li>
                 </ul>
             </nav><!-- .navbar2 -->

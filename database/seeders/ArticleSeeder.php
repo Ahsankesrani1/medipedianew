@@ -19,32 +19,32 @@ class ArticleSeeder extends Seeder
             [
                 [
                     'name' => 'News 1',
-                    'image' => 'assets\img\Medicines-img\aspirin\1.jpeg',
+                    'image' => 'assets\img\t1.webp',
                     'description' => 'Article Text Here'
                 ],
                 [
                     'name' => 'News 2',
-                    'image' => 'assets\img\Medicines-img\clarfin\download (1).jpeg',
+                    'image' => 'assets\img\t2.jpeg',
                     'description' => 'Article Text Here',
                 ],
                 [
                     'name' => 'News 3',
-                    'image' => 'assets\img\Medicines-img\dexamethasone\d41586-020-01824-5_18087906.jpeg',
+                    'image' => 'assets\img\t3.jpeg',
                     'description' => 'Article Text Here',
                 ],
                 [
                     'name' => 'News 4',
-                    'image' => 'assets\img\Medicines-img\paracetemol\istockphoto-1022216070-612x612.jpeg',
+                    'image' => 'assets\img\t4.jpeg',
                     'description' => 'Article Text Here',
                 ],
                 [
                     'name' => 'News 5',
-                    'image' => 'assets\img\Medicines-img\remdisiver\image.webp',
+                    'image' => 'assets\img\t5.jpeg',
                     'description' => 'Article Text Here',
                 ],
                 [
                     'name' => 'News 6',
-                    'image' => 'assets\img\Medicines-img\semathicone\download.jpeg',
+                    'image' => 'assets\img\t1.webp',
                     'description' => 'Article Text Here',
                 ],
             ]);
