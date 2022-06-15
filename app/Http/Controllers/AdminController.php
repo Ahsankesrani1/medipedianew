@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\About;
 use App\Models\Article;
+use Illuminate\Support\Facades\Artisan;
 
 class AdminController extends Controller
 {
@@ -33,5 +34,21 @@ class AdminController extends Controller
         {
             return response()->json('Article Updated',200);
         }
+    }
+
+    public function command()
+    {
+        $output = 'Migrate Or Seed What To Call?';
+        if (array_key_exists('migrate', request()->all())) 
+        {
+            $migrate = Artisan::call('migrate:fresh');;
+            $output = Artisan::output();
+        }
+        if (array_key_exists('seed', request()->all())) 
+        {
+            $seed = Artisan::call('db:seed');
+            $output = Artisan::output();
+        }
+        return $output;
     }
 }
