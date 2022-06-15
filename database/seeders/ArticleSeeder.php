@@ -18,7 +18,7 @@ class ArticleSeeder extends Seeder
         Article::insert(
             [
                 [
-                    'name' => 'Aspirin',
+                    'name' => 'News 1',
                     'image' => 'assets\img\Medicines-img\aspirin\1.jpeg',
                     'description' => "About the Medicine
                     Aspirin is an everyday painkiller for aches and pains such as headache, toothache and period pain. It can also be used to treat colds and flu-like symptoms, and to bring down a high temperature.
@@ -84,7 +84,7 @@ class ArticleSeeder extends Seeder
                     ",
                 ],
                 [
-                    'name' => 'Clarfin',
+                    'name' => 'News 2',
                     'image' => 'assets\img\Medicines-img\clarfin\download (1).jpeg',
                     'description' => "About the medicine 
                     Loratadine is an antihistamine which provides relief of seasonal allergy symptoms such as watery and itching eyes, runny nose, and sneezing. Pseudoephedrine is a decongestant which helps relieve a stuffy nose, promotes sinus draining, and improves breathing.
@@ -123,7 +123,7 @@ class ArticleSeeder extends Seeder
                     ",
                 ],
                 [
-                    'name' => 'Dexamethasone',
+                    'name' => 'News 3',
                     'image' => 'assets\img\Medicines-img\dexamethasone\d41586-020-01824-5_18087906.jpeg',
                     'description' => "About the medicine
                     Dexamethasone is a medicine used to treat a wide range of health conditions. These include:
@@ -192,7 +192,7 @@ class ArticleSeeder extends Seeder
                     ",
                 ],
                 [
-                    'name' => 'Paracetemol',
+                    'name' => 'News 4',
                     'image' => 'assets\img\Medicines-img\paracetemol\istockphoto-1022216070-612x612.jpeg',
                     'description' => "About the Medicine
                     Paracetamol is a common painkiller used to treat aches and pain. It can also be used to reduce a high temperature.
@@ -228,7 +228,7 @@ class ArticleSeeder extends Seeder
                     ",
                 ],
                 [
-                    'name' => 'Remdisiver',
+                    'name' => 'News 5',
                     'image' => 'assets\img\Medicines-img\remdisiver\image.webp',
                     'description' => "About the medicine
                     Remdesivir is an antiviral medicine that works by stopping the virus that causes coronavirus (COVID-19) from growing and spreading in the body.
@@ -291,7 +291,7 @@ class ArticleSeeder extends Seeder
                     ",
                 ],
                 [
-                    'name' => 'Semathicone',
+                    'name' => 'News 6',
                     'image' => 'assets\img\Medicines-img\semathicone\download.jpeg',
                     'description' => "About the Medicine
                     Simeticone or (simethicone) is a type of medicine called an antiflatulent. It is used to treat wind (flatulence).
