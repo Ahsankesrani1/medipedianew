@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('description_two')->nullable();
             $table->text('video_link')->nullable();
             $table->string('image')->nullable();
+            $table->string('image_two')->nullable();
             $table->tinyInteger('status')->default(1);
             $table->timestamps();
         });

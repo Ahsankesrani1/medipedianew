@@ -20,6 +20,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Aspirin',
                     'image' => 'assets\img\Medicines-img\aspirin\1.jpeg',
+                    'image_two' => 'assets\img\Medicines-img\aspirin\aspirin-gty-jt-170925_hpMain_3_4x3_992.jpeg',
                     'description_one' => 
                     "
                     <p><strong>About the Medicine</strong></p>
@@ -95,6 +96,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Clarfin',
                     'image' => 'assets\img\Medicines-img\clarfin\download (1).jpeg',
+                    'image_two' => 'assets\img\Medicines-img\clarfin\download.jpeg',
                     'description_one' => 
                     "
                     <p><strong>About the medicine </strong></p>
@@ -137,6 +139,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Dexamethasone',
                     'image' => 'assets\img\Medicines-img\dexamethasone\d41586-020-01824-5_18087906.jpeg',
+                    'image_two' => 'assets\img\Medicines-img\dexamethasone\8bee9396-0cbc-422e-ba06-77acf37128e7.jpeg',
                     'description_one' => 
                     "
                     <p><strong>About the medicine</strong></p>
@@ -217,6 +220,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Paracetemol',
                     'image' => 'assets\img\Medicines-img\paracetemol\istockphoto-1022216070-612x612.jpeg',
+                    'image_two' => 'assets\img\Medicines-img\paracetemol\2.jpeg',
                     'description_one' => 
                     "
                     <p><strong>About the Medicine</strong></p>
@@ -261,6 +265,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Remdisiver',
                     'image' => 'assets\img\Medicines-img\remdisiver\image.webp',
+                    'image_two' => 'assets\img\Medicines-img\remdisiver\Remdesvir COVID Jan. 18 Maura.jpg',
                     'description_one' => 
                     "
                     <p><strong>About the medicine</strong></p>
@@ -334,6 +339,7 @@ class MedicineSeeder extends Seeder
                 [
                     'name' => 'Semathicone',
                     'image' => 'assets\img\Medicines-img\semathicone\download.jpeg',
+                    'image_two' => 'assets\img\Medicines-img\semathicone\images.jpeg',
                     'description_one' => 
                     "
                     <p>Aspirin can cause ulcers in your stomach or gut, especially if you take it for a long time or in big doses. Your doctor may tell you not to take aspirin if you have a stomach ulcer, or if you've had one in the past.</p>
