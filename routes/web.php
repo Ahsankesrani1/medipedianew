@@ -21,5 +21,9 @@ Route::get('article/show', [App\Http\Controllers\AdminController::class, 'articl
 Route::post('articles/update/api', [App\Http\Controllers\AdminController::class, 'updateArticle'])->name('article.update');
 
 
-Route::view('/register','pages.auth.register');
-Route::view('/login','pages.auth.login');
+// USER
+Route::get('login', [App\Http\Controllers\UserController::class, 'login'])->name('user.login');
+Route::post('login/process', [App\Http\Controllers\UserController::class, 'loginProcess'])->name('user.login.process');
+Route::get('register', [App\Http\Controllers\UserController::class, 'store'])->name('user.store');
+Route::post('register/process', [App\Http\Controllers\UserController::class, 'storeProcess'])->name('user.store.process');
+Route::get('logout', [App\Http\Controllers\UserController::class, 'logout'])->name('user.logout');

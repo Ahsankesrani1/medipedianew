@@ -1,13 +1,21 @@
 @extends('layout.master')
 @section('content')
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex justify-content-center align-items-center">
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex justify-content-center align-items-center">
+        <div>
+            {{-- SHOWING SUCCESS MESSAGE --}}
+            @if (session()->has('message'))
+                <div class="alert alert-success">
+                    {{ session()->get('message') }}
+                </div>
+            @endif
+        </div>
         <div class="container position-relative">
             <p class="text-white text-center">Truly know your Medicine before you take them.</p>
             <div class="row">
                 <input class="medipedia-search" placeholder="medipedia search" type="search" id="search" />
                 <ul id="searchData" class="col-md-12 d-flex justify-content-center"></ul>
-           </div>
+            </div>
         </div>
     </section><!-- End Hero -->
     <!-- ======= Testimonials Section ======= -->
@@ -33,7 +41,7 @@
         <div class="container">
             <div class="section-title">
                 <h2><strong>Dive into the latest healthcare
-                    technology... </strong></h2>
+                        technology... </strong></h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -135,7 +143,7 @@
                             $.each(response, function(i, d) {
                                 $("#searchData").append(
                                     `<li class="searchli w-100"><a href='{{ route('client.medicine') }}?id=${d.id}' class="text-center">${d.name}</a></li>`
-                                    );
+                                );
                             });
                         } else {
                             $("#searchData").append(`<li class="sorry w-50">No Match Found</li>`);
