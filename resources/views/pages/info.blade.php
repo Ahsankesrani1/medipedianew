@@ -3,21 +3,20 @@
     <section class="d-flex justify-content-center align-items-center">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6 col-sm-12">
                     <div class="card">
                         <div class="card-body">
                             <p id="descriptionOne">
                             </p>
-                            {{-- <p class="card-text">
-                            </p> --}}
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12">
+
+                <div class="col-md-6 col-sm-12">
                     <img class="img-fuild" id="medicineImg" alt="Medicine Image" height="500" width="500">
-                </div>
-                <div class="col-md-4">
-                    <iframe id="videoFrame" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="videoFrame" width="500" height="500" src="" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
                 <div class="col-md-12">
                     <div class="card">
@@ -117,8 +116,32 @@
         </div>
     </section><!-- End pharmist Section -->
 
-    <section>
-<div class=""></div>
+    <section id="events" class="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{asset('./assets/img/donate.png')}}" class="img-fluid col-md-12 d-flex justify-content-center" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{asset('./assets/img/live-consultant.png')}}" class="img-fluid col-md-12  d-flex justify-content-center" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{asset('./assets/img/healt-insurance.png')}}" class="img-fluid col-md-12 d-flex justify-content-center" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 @endsection
 
