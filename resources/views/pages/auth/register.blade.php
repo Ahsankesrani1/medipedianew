@@ -24,6 +24,10 @@
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 mt-5 mt-lg-0 card">
+                    <div class="text-center">
+                        <br>
+                        <img src="{{ asset('./assets/img/mad.webp') }}" class="rounded" alt="...">
+                      </div>
                     <form class="php-email-form card-body mt-2" action="{{ route('user.store.process') }}" method="POST">
                         @csrf
                         <div class="row">

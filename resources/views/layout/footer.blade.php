@@ -112,36 +112,10 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-      <div class="container d-md-flex py-4">
-          <div class="me-md-auto text-center text-md-start">
-              <nav class="navbar2">
-                  <ul>
-                      <li><a class="active" href="{{ route('client.about') }}">About Medipedia</a></li>
-                      <li><a class="active" href="/">Community</a></li>
-                      <li><a class="active" href="{{ route('client.about') }}">FAQs</a></li>
-                  </ul>
-              </nav><!-- .navbar2 -->
+          <div class="me-md-auto text-center ">
+                <a href="/" class="logo me-auto new"><img src="" alt=""
+                    class="img-fluid"> SMALL WEB</a>
           </div>
-          <div class="me-md-auto text-center text-md-start">
-              <nav class="navbar2">
-                  <ul>
-                      <a href="/" class="logo me-auto"><img src="{{ asset('./assets/img/logo.jpeg') }}" alt=""
-                              style="width:250px;" class="img-fluid">
-                            </a>
-                        </ul>
-                        Truly know your Medicine before
-                        you take them
-              </nav><!-- .navbar2 -->
-          </div>
-
-          <div class="me-md-auto text-center text-md-start">
-            <nav class="navbar2">
-                <ul>
-                    <li><a class="active" href="{{ route('client.about') }}">Contact Us</a></li>
-                    <li><a class="active" href="/policy">Privacy Policy</a></li>
-                    <li><a class="active" href="/support">Support</a></li>
-                </ul>
-            </nav><!-- .navbar2 -->
         </div>
       </div>
   </footer><!-- End Footer -->

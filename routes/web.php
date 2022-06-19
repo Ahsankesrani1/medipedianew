@@ -27,7 +27,6 @@ Route::post('login/process', [App\Http\Controllers\UserController::class, 'login
 Route::get('register', [App\Http\Controllers\UserController::class, 'store'])->name('user.store');
 Route::post('register/process', [App\Http\Controllers\UserController::class, 'storeProcess'])->name('user.store.process');
 Route::get('logout', [App\Http\Controllers\UserController::class, 'logout'])->name('user.logout');
-
-
-Route::view('/support','pages.support');
-Route::view('/policy','pages.privacy');
+;
+Route::view('/profileupdate','pages.profileupdate');
+Route::view('/home','pages.home');
