@@ -43,6 +43,12 @@
                             </div>
                         </div>
                         <div class="text-center"><button type="submit">Login</button></div>
+                        <br>
+                        <div class="text-center">
+                        <a href="/register" class="text-black register text-center">Register</a>
+
+                        </div>
+                        
                     </form>
 
                 </div>
